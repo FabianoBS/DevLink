@@ -15,13 +15,13 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos com lentes escuras e casaco preto, sem barba e fundo degradê, de lilás a azul pastel."
+      ""
     )
   } else {
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos com lentes transparentes e casaco preto, sem barba e fundo degradê, de lilás a azul pastel."
+      ""
     )
   }
 }

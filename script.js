@@ -13,15 +13,9 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute(
-      "alt",
-      ""
-    )
+    img.setAttribute("alt", "")
   } else {
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute(
-      "alt",
-      ""
-    )
+    img.setAttribute("alt", "")
   }
 }
